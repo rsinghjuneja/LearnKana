@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_row"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        app:strokeWidth="1dp"
+        android:clickable="true"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_weight="1"
+        android:layout_width="@dimen/default_kana_character_view_width"
+        android:layout_height="wrap_content">
+
+        <LearnKana.Droid.MVVM.Views.Widgets.KanaCharacterView
+            android:id="@+id/view_kana_character_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:strokeWidth="1dp"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_weight="1"
+        android:layout_width="@dimen/default_kana_character_view_width"
+        android:layout_height="wrap_content">
+
+        <LearnKana.Droid.MVVM.Views.Widgets.KanaCharacterView
+            android:id="@+id/view_kana_character_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:strokeWidth="1dp"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_weight="1"
+        android:layout_width="@dimen/default_kana_character_view_width"
+        android:layout_height="wrap_content">
+
+        <LearnKana.Droid.MVVM.Views.Widgets.KanaCharacterView
+            android:id="@+id/view_kana_character_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:strokeWidth="1dp"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_weight="1"
+        android:layout_width="@dimen/default_kana_character_view_width"
+        android:layout_height="wrap_content">
+
+        <LearnKana.Droid.MVVM.Views.Widgets.KanaCharacterView
+            android:id="@+id/view_kana_character_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:strokeWidth="1dp"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_weight="1"
+        android:layout_width="@dimen/default_kana_character_view_width"
+        android:layout_height="wrap_content">
+
+        <LearnKana.Droid.MVVM.Views.Widgets.KanaCharacterView
+            android:id="@+id/view_kana_character_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

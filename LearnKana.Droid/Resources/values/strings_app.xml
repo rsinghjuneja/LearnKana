@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<string name="app_name">Learn Kana</string>
+	<string name="activity_quiz">@string/quiz</string>
+	<string name="activity_quiz_settings">Quiz Settings</string>
+
+	<string name="button_quiz">@string/quiz</string>
+	<string name="button_strokes">Stroke Order</string>
+	<string name="button_skip">I don\'t know</string>
+	<string name="button_ok">@android:string/ok</string>
+
+	<string name="quiz_question_input_explanation">"Input the romaji for this Kana."</string>
+	<string name="quiz_question_multichoice_explanation">"Choose the correct option."</string>
+	
+	<string name="quiz_quit_warning">"Press back again to quit the quiz otherwise suspend to save progress."</string>
+
+	<string name="hint_input_answer">Input your Answer</string>
+
+	<string name="menu_title_quiz">@string/quiz</string>	
+	<string name="menu_title_skip">Skip Q</string>	
+	<string name="menu_title_end">End Quiz</string>	
+	<string name="menu_title_settings">Settings</string>
+	
+</resources>

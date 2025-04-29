@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+
+	<string name="hiragana">Hiragana</string>
+	<string name="katakana">Katakana</string>
+
+	<string name="kana_script">Kana Script</string>
+	
+	<string name="dakuten">Dakuten</string>
+	<string name="handakuten">Handakuten</string>
+
+	<string name="hiragana_lower_case">hiragana</string>
+	<string name="katakana_lower_case">katakana</string>
+
+	<string name="memorized">Memorized</string>
+	<string name="answer">Answer</string>
+	<string name="kana_study">Kana Study</string>
+	<string name="stroke_order">Stroke Order</string>
+
+	<string name="quiz">Quiz</string>
+
+	<string name="definition_dakuten">A diacritic (゛) used with Japanese kana to mark a consonant as voiced, changing /k/ to /g/, /s/ to /z/, /t/ to /d/.</string>
+	<string name="definition_handakuten">A semi-voiced diacritic (゜) used with Japanese kana to change a /h/ to a /p/.</string>
+</resources>

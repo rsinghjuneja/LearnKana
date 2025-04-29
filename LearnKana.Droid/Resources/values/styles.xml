@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+	<style name="MaterialCardViewStyle" parent="Widget.Material3.CardView.Elevated">
+		<item name="cardBackgroundColor">@color/card_background</item>
+		<item name="cardElevation">@dimen/default_card_elevation</item>
+		<item name="cardCornerRadius">@dimen/default_card_corner_radius</item>
+	</style>
+
+	<style name="CircularProgressBarStyle" parent="@android:style/Widget.Material.ProgressBar">
+		<item name="android:indeterminateOnly">false</item>
+		<item name="android:progressDrawable">@drawable/shape_progress_bar_round</item>
+	</style>
+
+	<style name="DividerStyle" parent="Widget.Material3.MaterialDivider">
+		<item name="android:layout_marginTop">@dimen/margin_small</item>
+		<item name="android:layout_marginBottom">@dimen/margin_small</item>
+		<item name="dividerColor">@color/divider</item>
+		<item name="android:alpha">.3</item>
+	</style>
+
+	<style name="PopupStyle">
+		<item name="android:popupBackground">@drawable/shape_rounded_corners</item>
+	</style>
+
+	<style name="DialogStyle" parent="Theme.Material3.DayNight.Dialog">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:background">@drawable/shape_rounded_corners</item>
+		<item name="android:windowMinWidthMajor">80%</item>
+		<item name="android:windowMinWidthMinor">80%</item>
+	</style>
+
+	<style name="ModalBottomSheetDialogStyle" parent="Theme.Material3.DayNight.BottomSheetDialog">
+		<item name="bottomSheetStyle">@style/ModalStyle</item>
+		<item name="android:windowAnimationStyle">@style/SlidingAnimationStyle</item>
+	</style>
+	<style name="ModalStyle" parent="Widget.Design.BottomSheet.Modal">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:background">@drawable/shape_rounded_corners_top</item>
+	</style>
+
+	<style name="NonModalBottomSheetDialogStyle" parent="Theme.Material3.DayNight.BottomSheetDialog">
+		<item name="bottomSheetStyle">@style/NonModalStyle</item>
+		<item name="android:windowAnimationStyle">@style/SlidingAnimationStyle</item>
+		<item name="android:backgroundDimEnabled">false</item>
+	</style>
+	<style name="NonModalStyle" parent="ModalStyle">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:background">@drawable/shape_rounded_corners_top</item>
+	</style>
+
+	<style name="SlidingAnimationStyle">
+		<item name="android:windowEnterAnimation">@anim/slide_up</item>
+		<item name="android:windowExitAnimation">@anim/slide_down</item>
+	</style>
+
+</resources>

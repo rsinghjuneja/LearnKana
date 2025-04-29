@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+	<dimen name="size_zero">0dp</dimen>
+	<dimen name="size_1dp">1dp</dimen>
+
+	<dimen name="margin_1dp">@dimen/size_1dp</dimen>
+	<dimen name="margin_small">5dp</dimen>
+	<dimen name="margin_medium">10dp</dimen>
+	<dimen name="margin_large">15dp</dimen>
+
+	<dimen name="textsize_8sp">8sp</dimen>
+	<dimen name="textsize_10sp">10sp</dimen>
+	<dimen name="textsize_12sp">12sp</dimen>
+	<dimen name="textsize_14sp">14sp</dimen>
+	<dimen name="textsize_16sp">16sp</dimen>
+	<dimen name="textsize_18sp">18sp</dimen>
+	<dimen name="textsize_20sp">20sp</dimen>
+
+	<dimen name="default_kana_card_character_size">100sp</dimen>
+	<dimen name="default_kana_card_size">150dp</dimen>
+	<dimen name="default_kana_character_view_width">100dp</dimen>
+
+	<dimen name="default_card_elevation">10dp</dimen>
+	<dimen name="default_card_corner_radius">8dp</dimen>
+
+	<dimen name="default_progress_bar_corner_radius">5dp</dimen>
+	<dimen name="default_progress_bar_height">8dp</dimen>
+
+	<dimen name="default_circle_progress_bar_size">150dp</dimen>
+
+	<dimen name="fab_size_mini">40dp</dimen>
+	<dimen name="small_icon_size">24dp</dimen>
+
+</resources>

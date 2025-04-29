@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/margin_small"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_margin="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/button_audio"
+                app:layout_constraintTop_toTopOf="@id/container_imageview_kana"
+                app:layout_constraintBottom_toBottomOf="@id/container_imageview_kana"
+                app:layout_constraintLeft_toRightOf="@id/container_imageview_kana"
+                android:contentDescription="@string/cd_speaker"
+                android:src="@drawable/ic_speaker"
+                app:fabCustomSize="@dimen/fab_size_mini"
+                android:layout_gravity="right"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@id/textview_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/container_imageview_kana"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textAlignment="center"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/container_imageview_kana"
+                app:layout_constraintTop_toBottomOf="@id/textview_content"
+                app:layout_constraintBottom_toTopOf="@id/textview_tenten"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:strokeWidth="1dp"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_width="@dimen/default_kana_card_size"
+                android:layout_height="@dimen/default_kana_card_size">
+
+                <TextView
+                    android:id="@+id/textview_kana"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/default_kana_card_character_size"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/textview_tenten"
+                app:layout_constraintTop_toBottomOf="@id/container_imageview_kana"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/button_strokes"
+        android:text="@string/button_strokes"
+        style="@style/Widget.Material3.Button.TonalButton"
+        app:icon="@drawable/ic_strokes"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

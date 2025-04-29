@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<corners android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" android:topLeftRadius="@dimen/default_card_corner_radius" android:topRightRadius="@dimen/default_card_corner_radius"/>
+	<solid android:color="@color/dialog_background"/>
+	<padding android:left="@dimen/margin_small" android:top="@dimen/margin_small" android:right="@dimen/margin_small" android:bottom="@dimen/margin_small" />
+</shape>

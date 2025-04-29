@@ -1,0 +1,10 @@
+﻿<!-- NIGHT -->
+
+<resources>
+	<color name="colorPrimary">#6200EE</color>
+	<color name="activity_background">@color/m3_sys_color_dark_background</color>
+	<color name="dialog_background">@color/m3_sys_color_dark_surface_container_high</color>
+	<color name="card_background">@color/m3_sys_color_dark_surface_container_low</color>
+	<color name="card_background_2">@color/m3_sys_color_dark_surface_container_high</color>
+	<color name="divider">@android:color/white</color>
+</resources>

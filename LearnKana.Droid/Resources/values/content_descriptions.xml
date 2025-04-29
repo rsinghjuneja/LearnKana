@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<string name="cd_kana_image">An image that represents the Kana Character.</string>
+	<string name="cd_button_expand">An image for a button that expands content.</string>
+	<string name="cd_icon">An icon representing the item or context.</string>
+	<string name="cd_result_icon">An icon showing whether an answer was correct or incorrect.</string>
+	<string name="cd_speaker">An icon of a speaker to indicate that there is an audio file.</string>
+	<string name="cd_exit_icon">An icon of an X used for closing/exiting from a dialog.</string>
+</resources>

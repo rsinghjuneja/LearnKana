@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LearnKana.Droid.MVVM.Views.Toolbars.ActivityToolbarView
+        android:id="@+id/activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.core.widget.NestedScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/margin_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LearnKana.Droid.MVVM.Views.Containers.MaterialTitleContainer
+                android:id="@+id/title_container_questions"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialSwitchSettingView
+                    android:id="@+id/setting_view_question_romaji"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialSwitchSettingView
+                    android:id="@+id/setting_view_question_hiragana"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialSwitchSettingView
+                    android:id="@+id/setting_view_question_katakana"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialEditTextSettingView
+                    android:id="@+id/setting_view_count"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LearnKana.Droid.MVVM.Views.Containers.MaterialTitleContainer>
+
+            <LearnKana.Droid.MVVM.Views.Containers.MaterialTitleContainer
+                android:id="@+id/title_container_multichoice"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialSwitchSettingView
+                    android:id="@+id/setting_view_multichoice"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialSwitchSettingView
+                    android:id="@+id/setting_view_answer_romaji"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialSwitchSettingView
+                    android:id="@+id/setting_view_answer_hiragana"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialSwitchSettingView
+                    android:id="@+id/setting_view_answer_katakana"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LearnKana.Droid.MVVM.Views.Containers.MaterialTitleContainer>
+
+            <LearnKana.Droid.MVVM.Views.Containers.MaterialTitleContainer
+                android:id="@+id/title_container_input"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LearnKana.Droid.MVVM.Views.Widgets.MaterialSwitchSettingView
+                    android:id="@+id/setting_view_input"
+                    app:cardBackgroundColor="@color/card_background_2"
+                    android:layout_margin="@dimen/margin_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LearnKana.Droid.MVVM.Views.Containers.MaterialTitleContainer>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
